@@ -1,0 +1,80 @@
+body {
+    /* background-image: url("farol-alto-no-mar-do-norte-sob-um-ceu-nublado.jpg"); */
+    /* background-size: cover;  */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(116, 81, 110); 
+}
+
+nav {
+    color: rgb(3, 3, 5);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+    cursor: grab;
+}
+
+.session {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.div1 {
+    flex: 1;
+}
+
+.div2 {
+    flex-direction: 5; 
+    text-align: right;
+    width: 50%;
+    padding:q 1%;
+    padding-left: 10%;
+    font-weight: bold; 
+}
+
+button { 
+    width: 15%; 
+    height: 20%;
+    border-radius: 30px;
+    cursor: grab;
+}
+
+button:hover{
+    background-color: rgb(47, 69, 168);
+}
+
+h1 {
+    font-size: 30px;
+    color:rgb(255, 254, 255);
+    font-style: italic;
+    text-shadow: 0 0 3px black;
+    }
+
+p {
+    font-size: 25px;
+    color:rgb(255, 254, 255);
+    text-shadow: 0 0 3px black;
+}
+
+img {
+    width: 30%;
+    border: 3px solid;
+    border-color:rgb(255, 254, 255);
+    border-radius: 100px;
+}
+
+.pdf {
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 3px rgb(116, 81, 110);
+}
+    
+footer{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+
+}
